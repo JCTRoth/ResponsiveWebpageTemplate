@@ -8,6 +8,12 @@
     height: auto;
 }
 
+.nav-link{
+  background-color:#286090;
+  font-family: Impact, 'Arial Narrow Bold', sans-serif;
+  font-size: 120%;
+  color: #FFFFFF;
+}
 
 .button {
   display: inline-block;

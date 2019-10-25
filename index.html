@@ -1,0 +1,738 @@
+<head>
+  <meta charset="UTF-8">
+  <!-- Vendor Stuff dont touch -->
+  <link rel="stylesheet" href="vendor/bootstrap.min.css" TYPE="text/css">
+  <link rel="stylesheet" href="fonts/font-awesome/css/all.css" TYPE="text/css">
+
+  <!-- Own CSS -->
+  <link rel="stylesheet" href="css/navBar.css" TYPE="text/css">
+  <link rel="stylesheet" href="css/fontSytle.css" TYPE="text/css">
+  <link rel="stylesheet" href="css/main.css" TYPE="text/css">
+
+  <!-- Device Zoom and so on -->
+  <meta name="viewport" content="width=device-width, initial-scale=0.95">
+
+
+  <title>Resonsive Template Page</title>
+
+  <!-- favicon -->
+ <link rel="icon" type="images/png" href="images/test-icon-64x64.png">
+
+  <!-- Touch Icon -->
+
+  <!-- <link rel="apple-touch-icon" sizes="120x120" href="images/test-icon-120x120.png" />
+  <link rel="apple-touch-icon" sizes="152x152" href="images/test-icon-152x152.png" /> -->
+
+
+</head>
+
+<body>
+
+<!-- Bootstrap Grid System -->
+
+<!-- Every Row needs the same number of col.
+col-sm-5 + col-sm-5 + col-sm-5 = 15
+col-sm-5 + col-sm-10 = 15
+ -->
+
+<!-- Text above container "table" -->
+<div class="container-fluid text-center">
+<p> Text über dem Container  -- Text above the container  -- Texte au-dessus du conteneur -- Текст над контейнером -- Tekst boven de container -- Texto sobre el contenedor </p>
+</div>
+<div class="container">
+
+
+<!-- Top Menu -->
+    <div class="col-sm-5"></div> <!-- Empty -->
+
+<div class="row">
+    <div class="col-sm-5">
+    <ul class="nav nav-pills" id="pills-tab" role="tablist">
+        <li class="nav-item">
+          <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Profile</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Contact</a>
+        </li>
+      </ul>
+      <div class="tab-content" id="pills-tabContent">
+        <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">...</div>
+        <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">...</div>
+        <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">...</div>
+      </div>
+</div>
+
+<div class="col-sm-5"></div> <!-- Empty -->
+</div>
+</div>
+<!-- Top Menu END -->
+
+<div class="container">
+
+<div class="row">
+  <div class="col-sm-2">
+ 
+      <ul class="list-group">
+          <li class="list-group-item">Default</li>
+          <li class="list-group-item list-group-item-success">Success</li>
+          <li class="list-group-item list-group-item-danger">Danger</li>
+          <li class="list-group-item list-group-item-warning">Warning</li>
+          <li class="list-group-item list-group-item-info">Info</li>
+        </ul>
+
+</div>
+
+
+<div class="col-sm-3">
+    <label for="sel2">Select Mutiple with Shift:</label>
+    <select multiple class="form-control" id="sel2">
+      <option id="o1" >Option 1</option>
+      <option id="o2">2 Option</option>
+      <option id="o3">Option 3</option>
+      <option id="o4">4 Option</option>
+      <option id="o5">Option 5</option>
+    </select>
+</div>
+
+  </div>
+
+<div class="row">
+
+  <div class="col-sm-5">
+    <input class="form-control input-lg" type="text" placeholder=".input-lg">
+    <input class="form-control" type="text" placeholder="Default input">
+    <input class="form-control input-sm" type="text" placeholder=".input-sm">
+
+    <select class="form-control input-lg">
+  <option value="o1">1</option>
+  <option value="o2">2</option>
+    </select>
+    <select class="form-control">...</select>
+    <select class="form-control input-sm">...</select>
+  
+    <div class="form-group form-check">
+        <input type="checkbox" class="form-check-input" id="checkBoxOne">
+        <label class="form-check-label" for="exampleCheck1">AGBs</label>
+      </div>
+  
+  </div>
+
+
+  <div class="col-sm-5">
+    <!-- Example font-awesome icons - if you want to stop effects
+     on them go to fontSytle.css -->
+    <div id=""> <i class="fas fa-hammer"></i> </div>
+    <div id=""> <i class="fas fa-capsules"></i> </div>
+
+    <i class="fas fa-user"></i> <!-- uses solid style -->
+
+  </div>
+
+  <div class="col-sm-5">
+<p>Here some bootstrap icons - Glyphicons</p>
+<p>Envelope icon: <span class="glyphicon glyphicon-envelope"></span></p>
+<p>Search icon: <span class="glyphicon glyphicon-search"></span></p>
+<p>Print icon: <span class="glyphicon glyphicon-print"></span></p>
+</div>
+
+<div class="row">
+  <div class="col-sm-5">
+    <p>Use <kbd>ctrl + p</kbd> to open the Print dialog box.</p>
+    
+
+
+  </div>
+
+  </div>
+  <div class="row">
+    <div class="col-sm-5">
+      <h1>h1. Bootstrap heading <small>Secondary text</small></h1>
+      <h2>h2. Bootstrap heading <small>Secondary text</small></h2>
+      <h3>h3. Bootstrap heading <small>Secondary text</small></h3>
+      <h4>h4. Bootstrap heading <small>Secondary text</small></h4>
+      <h5>h5. Bootstrap heading <small>Secondary text</small></h5>
+      <h6>h6. Bootstrap heading <small>Secondary text</small></h6>
+    </div>
+
+    <div class="col-sm-5">
+      <canvas id="myChart" width="400" height="400"></canvas>
+    </div>
+    </div> <!-- End of Row -->
+
+<!-- Image Row-->
+<div class="row">
+    <div class="col-sm-3"><img src="images/see.jpeg" alt="..." style="max-width: 95%; height: auto;"></img></div>
+    <div class="col-sm-3"><img src="images/baum.jpg" alt="..." style="max-width: 95%; height: auto;"></img></div>
+    <div class="col-sm-3"><img src="images/gruen.jpeg" alt="..." style="max-width: 95%; height: auto;"></img></div>
+  </div> 
+<!-- Image Row End -->
+
+
+    <!-- Math Stuff -->
+    <div class="row">
+
+      <div class="col-sm-1"> </div> <!-- Empty Col. -->
+
+<!-- Splate 1 -->
+      <div class="col-sm-5">
+
+<figure>
+      <h4>Area of a circle</h4>
+      <p>
+       <math >
+              <mi>π<!-- p --></mi>
+              <mo>⁢<!-- &InvisibleTimes; --></mo>
+              <msup>
+                <mi>r</mi>
+                <mn>2</mn>
+              </msup>
+      </math>
+      </p>
+      <h4>Quadratic Equation</h4>
+      <p>
+        <math >
+        <mrow>
+          <mrow>
+            <msup>
+              <mi>x</mi>
+              <mn>2</mn>
+            </msup>
+            <mo>+</mo>
+            <mrow>
+              <mn>4</mn>
+              <mo>⁢</mo>
+              <mi>x</mi>
+            </mrow>
+            <mo>+</mo>
+            <mn>4</mn>
+          </mrow>
+          <mo>=</mo>
+          <mn>0</mn>
+        </mrow>
+        </math>
+        </p>
+        <h4>Quadratic Formula</h4>
+        <p>
+        <math >
+        <mrow>
+          <mi>x</mi>
+          <mo>=</mo>
+          <mfrac>
+            <mrow>
+              <mrow>
+                <mo>-</mo>
+                <mi>b</mi>
+              </mrow>
+              <mo>±</mo>
+              <msqrt>
+                <mrow>
+                  <msup>
+                    <mi>b</mi>
+                    <mn>2</mn>
+                  </msup>
+                  <mo>-</mo>
+                  <mrow>
+                    <mn>4</mn>
+                    <mo>⁢</mo>
+                    <mi>a</mi>
+                    <mo>⁢</mo>
+                    <mi>c</mi>
+                  </mrow>
+                </mrow>
+              </msqrt>
+            </mrow>
+            <mrow>
+              <mn>2</mn>
+              <mo>⁢</mo>
+              <mi>a</mi>
+            </mrow>
+          </mfrac>
+        </mrow>
+        </math>
+        </p>
+        <h4>Embedded table</h4>
+        <p>
+        <math >
+        <mrow>
+          <mi>A</mi>
+          <mo>=</mo>
+          <mfenced open="[" close="]">
+            <mtable>
+              <mtr>
+                 <mtd><mi>x</mi></mtd>
+                 <mtd><mi>y</mi></mtd>
+              </mtr>
+              <mtr>
+                 <mtd><mi>z</mi></mtd>
+                 <mtd><mi>w</mi></mtd>
+              </mtr>
+            </mtable>
+          </mfenced>
+        </mrow>
+        </math>
+        </p>
+        <h4>Semantics (MathML tag - with content markup annotation)</h4>
+        <p>
+        <math >
+        <mrow>
+        <semantics>
+          <mrow>
+            <msubsup>
+              <mo>∫</mo>
+              <mn>1</mn>
+              <mi>t</mi>
+            </msubsup>
+            <mfrac>
+              <mrow>
+                <mo>ⅆ</mo>
+                <mi>x</mi>
+              </mrow>
+              <mi>x</mi>
+            </mfrac>
+          </mrow>
+          <annotation-xml encoding="MathML-Content">
+            <apply>
+              <int></int>
+              <bvar><ci>x</ci></bvar>
+              <lowlimit><cn>1</cn></lowlimit>
+              <uplimit><ci>t</ci></uplimit>
+              <apply>
+                <divide></divide>
+                <cn>1</cn>
+                <ci>x</ci>
+              </apply>
+            </apply>
+          </annotation-xml>
+        </semantics>
+        </mrow>
+        </math>
+        </p>
+        <h4>Polynomial Equation (with mstyle)</h4>
+        <p>
+        <math  title="a x^2+b x+c=0">
+        <mstyle displaystyle="true" mathcolor="blue" fontfamily="serif">
+        <mi>
+        a
+        </mi>
+        <msup>
+        <mi>
+        x
+        </mi>
+        <mn>
+        2
+        </mn>
+        </msup>
+        <mo>
+        +
+        </mo>
+        <mi>
+        b
+        </mi>
+        <mi>
+        x
+        </mi>
+        <mo>
+        +
+        </mo>
+        <mi>
+        c
+        </mi>
+        <mo>
+        =
+        </mo>
+        <mn>
+        0
+        </mn>
+        </mstyle>
+        </math>
+        </p>
+        <h4>Complex Equation</h4>
+        <p>
+        <math >
+        <mn>
+        2
+        </mn>
+        <mo>
+        ⁢
+        </mo>
+        <mi>
+        x
+        </mi>
+        <mo>
+        ×
+        </mo>
+        <mo>
+        -
+        </mo>
+        <mfrac>
+        <mrow>
+        <mi>
+        1
+        </mi>
+        </mrow>
+        <mn>
+        16
+        </mn>
+        </mfrac>
+        <mo>
+        +
+        </mo>
+        <msup>
+        <mrow>
+        <mo>
+        −
+        </mo>
+        <mn>
+        5
+        </mn>
+        </mrow>
+        <mn>
+        2
+        </mn>
+        </msup>
+        <mo>
+        =
+        </mo>
+        <mn>
+        24
+        </mn>
+        <mo>
+        ⁤
+        </mo>
+        <mfrac>
+        <mn>
+        15
+        </mn>
+        <mn>
+        16
+        </mn>
+        </mfrac>
+        </math>
+        </p>
+        <h4>E Equals MC Squared in Table</h4>
+        <p>
+        <math >
+        <mtable>
+          <mlabeledtr id="e-is-m-c-square">
+            <mtd>
+            <mtext></mtext>
+            </mtd>
+              <mrow>
+               <mi>E</mi>
+               <mo>=</mo>
+               <mrow>
+               <mtd>
+                <mi>m</mi>
+                <mo>⁢<!--INVISIBLE TIMES--></mo>
+                <msup>
+                 <mi>c</mi>
+                 <mn>2</mn>
+                </msup>
+                </mtd></mrow>
+             </mrow>
+
+          </mlabeledtr>
+        </mtable>
+        </math>
+        </p>
+        </div> <!-- Ende Spalte 1 -->
+<!-- Spalte 2 -->
+<div class="col-sm-5">
+
+        <h4>Broken Fences</h4>
+        <p>
+        <math >
+        <mo>{</mo>
+        <mo>[</mo>
+        <mi>a</mi>
+        <mo>+</mo>
+        <mi>b</mi>
+        <mo>+</mo>
+        <mi>c</mi>
+        <mo>)</mo>
+        <mo>-</mo>
+        <mi>d</mi>
+        <mo>}</mo>
+        </math>
+        </p>
+        <h4>Fenced 1</h4>
+        <p>
+        <math >
+        <mfenced>
+          <mrow>
+            <mi> a </mi>
+            <mo> + </mo>
+            <mi> b </mi>
+          </mrow>
+        </mfenced>
+        </math>
+        </p>
+        <h4>GroupAligned</h4>
+        <p>
+        <math >
+        <mtable groupalign="{decimalpoint left left decimalpoint left left decimalpoint}">
+          <mtr>
+            <mtd>
+              <mrow>
+                <mrow>
+                  <mrow>
+                    <maligngroup></maligngroup>
+                    <mn> 8.44 </mn>
+                    <mo> ⁢<!--INVISIBLE TIMES--> </mo>
+                    <maligngroup></maligngroup>
+                    <mi> x </mi>
+                  </mrow>
+                  <maligngroup></maligngroup>
+                  <mo> + </mo>
+                  <mrow>
+                    <maligngroup></maligngroup>
+                    <mn> 55 </mn>
+                    <mo> ⁢<!--INVISIBLE TIMES--> </mo>
+                    <maligngroup></maligngroup>
+                    <mi> y </mi>
+                  </mrow>
+                </mrow>
+              <maligngroup></maligngroup>
+              <mo> = </mo>
+              <maligngroup></maligngroup>
+              <mn> 0 </mn>
+            </mrow>
+            </mtd>
+          </mtr>
+          <mtr>
+            <mtd>
+              <mrow>
+                <mrow>
+                  <!--mrow-->
+                    <maligngroup></maligngroup>
+                    <mn> 3.1 </mn>
+                    <mo> ⁢<!--INVISIBLE TIMES--> </mo>
+                    <maligngroup></maligngroup>
+                    <mi> x </mi>
+                  <!--/mrow-->
+                  <maligngroup></maligngroup>
+                  <mo> - </mo>
+                  <mrow>
+                    <maligngroup></maligngroup>
+                    <mn> 0.7 </mn>
+                    <mo> ⁢<!--INVISIBLE TIMES--> </mo>
+                    <maligngroup></maligngroup>
+                    <mi> y </mi>
+                  </mrow>
+                </mrow>
+                <maligngroup></maligngroup>
+                <mo> = </mo>
+                <maligngroup></maligngroup>
+                <mrow>
+                  <mo> - </mo>
+                  <mn> 1.1 </mn>
+                </mrow>
+              </mrow>
+            </mtd>
+          </mtr>
+        </mtable>
+        </math>
+        </p>
+        <h4>Sine function</h4>
+        <p>
+        <math >
+        <semantics>
+          <mrow>
+            <mrow>
+              <mi>sin</mi>
+              <mo>⁡<!--FUNCTION APPLICATION--></mo>
+              <mfenced><mi>x</mi></mfenced>
+            </mrow>
+            <mo>+</mo>
+            <mn>5</mn>
+          </mrow>
+          <annotation-xml cd="mathmlkeys" name="contentequiv" encoding="MathML-Content">
+            <apply>
+              <plus></plus>
+              <apply><sin></sin><ci>x</ci></apply>
+              <cn>5</cn>
+            </apply>
+          </annotation-xml>
+          <annotation encoding="application/x-tex">
+            \sin x + 5
+          </annotation>
+        </semantics>
+        </math>
+        </p>
+        <h4>Enclosed</h4>
+        <p>
+        <math >
+        <menclose notation="circle box">
+          <mi> x </mi><mo> + </mo><mi> y </mi>
+        </menclose>
+        </math>
+        </p>
+        <h4>Cubed Root of x</h4>
+        <p>
+        <math >
+        <mrow>
+          <mroot>
+            <mi>x</mi>
+            <mn>3</mn>
+          </mroot>
+        </mrow>
+        </math>
+        </p>
+        <h4>Fourth Root of 64</h4>
+        <p>
+        <math >
+        <mrow>
+          <mroot>
+            <mi>64</mi>
+            <mn>4</mn>
+          </mroot>
+        </mrow>
+        </math>
+        </p>
+        <h4>Cubed Root of x +1</h4>
+        <p>
+        <math >
+        <mrow>
+          <mroot>
+            <mi>x</mi>
+            <mn>3</mn>
+          </mroot>
+          <mo>+</mo>
+          <mi>1</mi>
+        </mrow>
+        </math>
+        </p>
+        <h4>Fifth Root of x</h4>
+        <p>
+        <math >
+        <mrow>
+          <mroot>
+            <mi>x</mi>
+            <mn>5</mn>
+          </mroot>
+        </mrow>
+        </math>
+        </p>
+        <h4>Minus one third Root of the quanity x plus 1</h4>
+        <p>
+        <math >
+        <mrow>
+          <mroot>
+            <mrow>
+            <mi>x</mi>
+            <mo>+</mo>
+            <mi>1</mi>
+            </mrow>
+            <mn>
+              <mfrac>
+                <mrow>
+                <mi>−1</mi>
+                </mrow>
+                <mn>
+                <mi>3</mi>
+                </mn>
+
+              </mfrac>
+            </mn>
+          </mroot>
+        </mrow>
+        </math>
+        </p>
+</div> <!-- Ende Spalte 2 -->
+
+        </figure>
+        </div> <!-- End of Col -->
+
+<!-- Image -->
+<div class="col-sm-3"> </div> <!-- Empty-->
+
+<div class="col-sm-7">
+
+<a class="btn btn-primary text-center" href="https://www.mailbase.info" role="button" target="blank_"><span class="fa fa-link"></span> Mailbase.info </a>
+
+</div>
+
+<div class="col-sm-5"> </div> <!-- Empty-->
+<!-- End Image -->
+
+</div> <!-- End of Container -->
+
+
+
+
+
+
+<!-- end Container -->
+
+<!-- Vendor JS Libs here - When switching to NPM uncomment this here -->
+<script async src="vendor/Chart.bundle.min.js"></script>
+<script src="vendor/jquery.min.js"></script>
+<script src="vendor/bootstrap.min.js"></script>
+<script src="vendor/popper.min.js"></script>
+<!-- End of Vendor Libs --> 
+
+<!-- MathJax API Changes often, so it stays FIX here-->
+<script type="text/javascript" id="MathJax-script" async
+ src="vendor/MathJax/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+<!-- End of MathJax-->
+
+<!-- NPM Libs. 
+<script async src="node_modules/chart.js/dist/Chart.js"></script>
+<script src="node_modules/jquery/dist/jquery.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="node_modules/popper.js/dist/popper.min.js"></script> -->
+<!-- End of NPM Libs. -->
+
+<!-- Own JS files here -->
+<script src="JS/main.js"></script>
+
+<!-- Add some own Page Code here -->
+  <script>
+  var ctx = document.getElementById('myChart');
+  var myChart = new Chart(ctx, {
+      type: 'bar',
+      data: {
+          labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+          datasets: [{
+              label: '# of Votes',
+              data: [1000, 19, 3, 5, 2, 3],
+              backgroundColor: [
+                  'rgba(255, 99, 132, 0.2)',
+                  'rgba(54, 162, 235, 0.2)',
+                  'rgba(255, 206, 86, 0.2)',
+                  'rgba(75, 192, 192, 0.2)',
+                  'rgba(153, 102, 255, 0.2)',
+                  'rgba(255, 159, 64, 0.2)'
+              ],
+              borderColor: [
+                  'rgba(255, 99, 132, 1)',
+                  'rgba(54, 162, 235, 1)',
+                  'rgba(255, 206, 86, 1)',
+                  'rgba(75, 192, 192, 1)',
+                  'rgba(153, 102, 255, 1)',
+                  'rgba(255, 159, 64, 1)'
+              ],
+              borderWidth: 1
+          }]
+      },
+      options: {
+          scales: {
+              yAxes: [{
+                  ticks: {
+                      beginAtZero: true
+                  }
+              }]
+          }
+      }
+  });
+  </script>
+
+</body>
+
+<footer>
+</footer>
+</html>
